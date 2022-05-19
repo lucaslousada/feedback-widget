@@ -35,7 +35,7 @@ Você pode usar [Yarn](https://yarnpkg.com/) ou [Npm](https://nodejs.org/en/down
 git clone https://github.com/lucaslousada/feedback-widget.git && cd feedback-widget
 ```
 
-#### Server
+### Server
 
 ```bash
 # Da pasta raiz do projeto acesse a pasta 'server'
@@ -55,7 +55,7 @@ $ npx prisma migrate dev
 $ npm run dev
 ```
 
-#### Web
+### Web
 
 ```bash
 # Da pasta raiz do projeto acesse a pasta 'web'
