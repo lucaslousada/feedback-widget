@@ -45,20 +45,20 @@ $ cd server
 $ npm install
 
 # Faça uma cópia de '.env.example' para '.env'
-# e defina as SUAS variáveis de ambiente.
+# e defina as SUAS variáveis ambiente.
 $ cp .env.example .env
 
 # Com um PostgreSQL rodando, execute os migrations
 $ npx prisma migrate dev
 
-# Inicia o servidor
+# Inicie o servidor
 $ npm run dev
 ```
 
 #### Web
 
 ```bash
-# Da pasta raiz do projeto acesse a pasta 'web'$ cd web
+# Da pasta raiz do projeto acesse a pasta 'web'
 $ cd web
 
 # Instale as dependências
@@ -67,10 +67,10 @@ $ npm install
 # Faça uma cópia de '.env.local.example' para '.env.local'
 $ cp .env.local.example .env.local
 
-# Iniciar a aplicação
+# Inicie a aplicação
 $ npm run dev
 ```
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE.MD) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
